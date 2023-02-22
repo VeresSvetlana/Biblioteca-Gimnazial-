@@ -41,7 +41,7 @@ a {
   text-decoration: none;
 }
 header {
-  padding: 7px 50px 4px 5px;
+  padding: 7px 45px 4px 5px;
   background-color: #8686869b;
   position: fixed;
   z-index: 2;
@@ -223,7 +223,7 @@ footer {
 }
 .top-section {
   background: linear-gradient(#050331c7, #04042e81);
-  min-height: 320px;
+  min-height: 330px;
   display: flex;
   justify-content: center;
   align-items: center;
