@@ -27,6 +27,7 @@ body {
   margin-right: 15px;
   margin-left: 50px;
   font-family: Roboto;
+  font: bold;
 }
 .nav a:hover {
   color:blue;
@@ -34,7 +35,7 @@ body {
 }
 h1 {
   font-family: Roboto;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
 }
 
 a {
@@ -42,7 +43,7 @@ a {
 }
 header {
   padding: 7px 45px 4px 5px;
-  background-color: #8686869b;
+  background-color: #4542429b;
   position: fixed;
   z-index: 2;
   width: 100%;
@@ -55,9 +56,9 @@ header img {
 }
 #intro {
   min-height: 100vh;
-  background: linear-gradient(#36363864, #00000079), url(../images/f9.jpg);
+  background: linear-gradient(#535355b4, #0909098e), url(../images/f9.jpg);
   background-size: cover;
-  color: rgb(119, 176, 199);;
+  color:rgb(133, 187, 208);
   position: relative;
 }
 
@@ -67,13 +68,14 @@ header img {
 }
 .intro-content h1 {
   font-size: 2.0rem;
-  margin-top: 0px;
+  margin-top: 5px;
   margin-bottom: -15px;
+  text-align: center;
 }
 .logou {
   height: 90px;
   border-radius: 20px;
-  
+ 
 }
 .custom-shape-divider-bottom-1675262823 {
   position: absolute;
@@ -141,7 +143,7 @@ border-radius: inherit;
   color: var(--primary);
   flex-direction: column;
   text-align: center;
-  background: radial-gradient(#36363862, #00000079);
+  background: radial-gradient(#3535383d, #00000079);
   border-radius: inherit;
   border: 2px solid var(--secondary);
   padding: 20px 12%;
@@ -235,7 +237,7 @@ footer {
   background-position: 0% 60%;
   background-size: cover;
   text-align: center;
-  color: rgb(119, 176, 199);
+  color:rgb(133, 187, 208) ;
 }
 #activitate{
   min-height: 50vh;
@@ -245,7 +247,7 @@ footer {
   background-position: 0% 60%;
   background-size: cover;
   text-align: center;
-  color: rgb(119, 176, 199);
+  color: rgb(133, 187, 208);
 }
 #servicii {
   min-height: 50vh;
@@ -456,25 +458,6 @@ footer {
   border-radius: 40%;
   margin-left: 3%;
 }
-
-.rotire {
-  animation: rotire 2s infinite;
-}
-
-@keyframes rotire {
-  0% {
-      transform: rotateY(0deg);
-  }
-
-  100% {
-      transform: rotateY(180deg);
-  }
-}
-
-
-
-
-
 
 
 @keyframes icon-anim1 {
